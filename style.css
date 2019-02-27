@@ -1,16 +1,7 @@
-p {
-    margin: 16px 0 16px 0;
-    background-color: #dff0d8;
-}
-
-.p-first {
-    margin-left: 50px;
-}
-
-.p-second {
+.p-absolute {
     padding: 20px;
-}
-
-.p-third {
-    width: 50%;
+    background-color: rgba(0, 255, 0, 0.25);
+    position: absolute;
+    left: 100px;
+    bottom: 615px;
 }
