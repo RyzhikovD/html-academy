@@ -1,7 +1,24 @@
-.p-absolute {
-    padding: 20px;
-    background-color: rgba(0, 255, 0, 0.25);
-    position: absolute;
-    left: 100px;
-    bottom: 615px;
+div {
+    margin-bottom: 15px;
+    padding: 10px 25px 10px 25px;
+
+    background-color: #dff0d8;
+}
+
+.left-column {
+    width: 50%;
+    min-height: 100px;
+    float: left;
+    background-color: #fcf8e3;
+}
+
+.right-column {
+    width: 25%;
+    min-height: 100px;
+    float: right;
+    background-color: #d9edf7;
+}
+
+.footer {
+    clear: both;
 }
