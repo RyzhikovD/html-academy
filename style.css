@@ -1,7 +1,8 @@
-.alert {
+p {
+    outline: 2px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
-    border: 1px solid #d6e9c6;
+}
+
+.truth {
     background-color: #dff0d8;
-    color: #468847;
-    border-radius: 15px;
 }
