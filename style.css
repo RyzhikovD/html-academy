@@ -1,3 +1,11 @@
-.error {
-    color: red;
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
