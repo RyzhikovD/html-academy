@@ -1,8 +1,9 @@
 p {
     outline: 2px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
+    background-color: #dff0d8;
 }
 
 .truth {
-    background-color: #dff0d8;
+    background-color: #aaddff;
 }
