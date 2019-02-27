@@ -1,11 +1,16 @@
-.underline {
-    text-decoration: underline;
+p {
+    margin: 16px 0 16px 0;
+    background-color: #dff0d8;
 }
 
-.bold {
-    font-weight: bold;
+.p-first {
+    margin-left: 50px;
 }
 
-.italic {
-    font-style: italic;
+.p-second {
+    padding: 20px;
+}
+
+.p-third {
+    width: 50%;
 }
