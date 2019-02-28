@@ -1,11 +1,11 @@
-.shooter-1 li:nth-child(2), .shooter-1 li:last-child, .shooter-2 li:first-child {
-    background-color: red;
+table {
+    background: rgba(255, 255, 255, 0.95);
 }
 
-li {
-    background-color: white;
+tr:hover {
+    background-color: #fcf8e3;
 }
 
-body {
-    background-color: green;
+strong:hover {
+    color: #0088cc;
 }
