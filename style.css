@@ -1,11 +1,15 @@
-table {
-    background: rgba(255, 255, 255, 0.95);
+em {
+    display: none;
 }
 
-tr:hover {
-    background-color: #fcf8e3;
+tr:hover em{
+    display: inline;
 }
 
-strong:hover {
+table tr th:nth-child(2) {
+    width: 300px;
+}
+
+table tr:hover td:last-child {
     color: #0088cc;
 }
