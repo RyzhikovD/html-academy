@@ -1,7 +1,13 @@
-.hit {
+.first,
+.fifth {
     background-color: white;
 }
 
-.miss {
+.third,
+.fourth {
     background-color: red;
+}
+
+.second {
+    background-color: yellow;
 }
