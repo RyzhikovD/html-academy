@@ -1,7 +1,15 @@
-.first + li, .fourth + li {
-     background-color: red;
- }
+.shooter-1 .third + li,  .shooter-2 .first + li{
+    background-color: red;
+}
 
-li {
+.shooter-2 .third + li {
+    background-color: yellow;
+}
+
+li{
     background-color: white;
+}
+
+body {
+    background-color: green;
 }
