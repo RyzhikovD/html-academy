@@ -1,9 +1,9 @@
-.target li:first-child {
+.target li:nth-child(3) {
     background-color: red;
 }
 
-.target li:last-child {
-    background-color: yellow;
+.target li:nth-child(4) {
+    background-color: red;
 }
 
 li {
