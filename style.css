@@ -1,15 +1,11 @@
-em {
-    display: none;
+a:link {
+    color: black;
 }
 
-tr:hover em{
-    display: inline;
+a:visited {
+    color: #cccccc;
 }
 
-table tr th:nth-child(2) {
-    width: 300px;
-}
-
-table tr:hover td:last-child {
-    color: #0088cc;
+a:active {
+    color: green;
 }
