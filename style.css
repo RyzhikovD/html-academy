@@ -1,7 +1,15 @@
-.places > li {
-    border-bottom: 2px solid #cccccc;
+.target li:first-child {
+    background-color: red;
 }
 
-.places > li > span {
-    font-weight: bold;
+.target li:last-child {
+    background-color: yellow;
+}
+
+li {
+    background-color: white;
+}
+
+body {
+    background-color: green;
 }
