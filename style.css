@@ -1,15 +1,7 @@
-.shooter-1 .third + li,  .shooter-2 .first + li{
-    background-color: red;
+.places > li {
+    border-bottom: 2px solid #cccccc;
 }
 
-.shooter-2 .third + li {
-    background-color: yellow;
-}
-
-li{
-    background-color: white;
-}
-
-body {
-    background-color: green;
+.places > li > span {
+    font-weight: bold;
 }
