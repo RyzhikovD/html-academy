@@ -1,14 +1,17 @@
 body {
     font-family: "PT Sans", sans-serif;
-    color: #7f8c8d;
-    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
 }
 
-a {
-    color: #3498db
+.block1 {
+    font-style: italic;
 }
 
-ul {
-    border: 1px solid #1abc9c;
-    padding: 25px;
+.block2 {
+    cursor: pointer;
+}
+
+.block2 ul {
+    list-style-type: square;
 }
