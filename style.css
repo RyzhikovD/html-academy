@@ -1,23 +1,27 @@
-span {
-    background-color: #27ae60; /* Зелёный */
+body {
+  font-family: "PT Sans", sans-serif;
 }
 
-div span {
-    background-color: #2980b9; /* Синий */
+li {
+  margin-bottom: 30px;
 }
 
-#floor .cat-in-box {
-    background-color: #34495e; /* Мокрый асфальт */
+pre {
+  max-width: 350px;
+  padding: 5px 10px;
+  border: 1px solid #e1e1e8;
+
+  background-color: #f7f7f9;
+  border-radius: 3px;
 }
 
-.cat-in-box {
-    background-color: #8e44ad; /* Фиолетовый */
-}
+input[type="text"] {
+  width: 50px;
+  margin-left: 5px;
+  padding: 3px;
+  border: 1px solid #cccccc;
 
-#floor span {
-    background-color: #c0392b; /* Красный */
-}
-
-div .cat-in-box {
-    background-color: #e67e22; /* Оранжевый */
+  font-family: "PT Sans", sans-serif;
+  vertical-align: middle;
+  border-radius: 5px;
 }
