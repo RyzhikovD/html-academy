@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <title>Принудительное наследование</title>
+    <title>Каскадирование</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p>Первый список</p>
-    <ul class="first-list">
-      <li>Первый элемент списка</li>
-      <li>Второй элемент списка</li>
-      <li>Третий элемент списка</li>
-    </ul>
-    <p>Второй список</p>
-    <ul class="second-list">
-      <li>Первый элемент списка</li>
-      <li>Второй элемент списка</li>
-      <li>Третий элемент списка</li>
-    </ul>
+    <div class="block1">
+      <p>Строка текста в первом блоке</p>
+      <p class="message">Еще одна строка текста в первом блоке</p>
+      <ul>
+        <li>Первый элемент списка</li>
+        <li>Второй элемент списка</li>
+        <li>Третий элемент списка</li>
+      </ul>
+    </div>
+    <div class="block2 message">
+      <p>Строка текста во втором блоке</p>
+      <p class="message">Еще одна строка текста во втором блоке</p>
+    </div>
   </body>
 </html>
