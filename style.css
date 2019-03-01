@@ -1,50 +1,108 @@
+html,
 body {
-  padding: 10px;
-  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.cats {
-  position: relative;
-  width: 390px;
-  margin: 20px auto;
-  padding: 20px;
-
-  text-align: center;
-  box-shadow: 0 0 3px #999999;
+body {
+  width: 550px;
+  height: 300px;
+  font-size: 12px;
+  font-family: "Tahoma", "Arial", sans-serif;
 }
 
-.cats .cat {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  padding: 10px;
+.profile {
+  padding: 5px 10px;
+}
 
+.profile img {
+  display: block;
+  padding: 10px;
+  border: 2px solid #34495e;
+  border-radius: 8px;
+}
+
+.profile .photo {
+  float: left;
+  width: 152px;
+}
+
+.profile .info {
+  float: left;
+  width: 368px;
+  margin-left: 10px;
+}
+
+.info h2 {
+  margin: 0 !important;
+  padding: 10px !important;
+
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+  background: #34495e !important;
+  border-radius: 4px;
+}
+
+.profile div.info .fact {
+  padding: 10px;
+  background: white;
+}
+
+.profile div.info .fact:nth-child(odd) {
+  background: #ecf0f1;
+}
+
+.profile div.info div.fact::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.profile div.info .fact .title {
+  float: left;
+  width: 120px;
+  text-align: right;
+  color: #7f8c8d;
+}
+
+div.info .fact .value {
+  margin-left: 140px;
+  color: #34495e;
+}
+
+div.info div.albums {
+  margin-top: 5px;
+}
+
+div.info div.albums img, #miska {
+  float: left;
+  margin-right: 5px;
+}
+
+div.info div.albums img:last-child {
+  margin-right: 0;
+}
+
+div.profile .button {
+  display: block;
+  height: 30px;
+  margin: 5px 0;
+
+  line-height: 30px;
   text-align: center;
   color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: 50% 80%;
-  background-size: 64px;
-  border-radius: 5px;
-  box-shadow: 0 0 3px #999999;
+  border-radius: 4px;
 }
 
-.cats .cat-keksik {
-  background-color: #3498db;
-  background-image: url("cat_walk.png");
+.photo .stroke {
+  background: #3498db;
 }
 
-.cats .cat-rudolf {
-  background-color: #e74c3c;
-  background-image: url("cat_grumpy.png");
+.photo .feed {
+  background: #2ecc71;
 }
 
-.cats .cat-snezhok {
-  background-color: #2ecc71;
-  background-image: url("cat_w.png");
-}
-
-.cats .cat-adolf {
-  background-color: #e67e22;
-  background-image: url("cat_a.png");
+.photo .startle {
+  background: #e74c3c;
 }
