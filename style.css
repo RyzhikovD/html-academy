@@ -1,9 +1,13 @@
 body {
   font-family: "PT Sans", sans-serif;
-   color: #2980b9;
-   font-size: 12px;
+    color: #7f8c8d;
+    font-size: 12px;
 }
 
-li {
-  color: #1abc9c;
+.selected {
+    color: #e74c3c;
+}
+
+.selected span{
+    color: #3498db;
 }
