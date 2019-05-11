@@ -1,2 +1,2 @@
-# study
+# html-academy
 Training project
